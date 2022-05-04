@@ -7,6 +7,7 @@ import com.codename1.ui.Dialog;
 import com.codename1.ui.plaf.UIManager;
 import com.codename1.ui.util.Resources;
 import com.codename1.ui.Toolbar;
+import com.tunipedia.gui.ListPersonsForm;
 import com.tunipedia.gui.SignInForm;
 
 /**
@@ -42,8 +43,9 @@ public class MyApplication  {
     }
     
     public void start() {
-         new SignInForm(theme).show();
-        //Form hi = new Form("TuniPedia", new BorderLayout(BorderLayout.CENTER_BEHAVIOR_CENTER_ABSOLUTE));
+         //new SignInForm(theme).show();
+         new ListPersonsForm().show();
+         //Form hi = new Form("TuniPedia", new BorderLayout(BorderLayout.CENTER_BEHAVIOR_CENTER_ABSOLUTE));
         //final Label apple = new Label(theme.getImage("apple-icon.png")); 
     }
     
